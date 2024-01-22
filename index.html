@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" class="bg-neutral">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/cookiebot.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LMR Cookiebot Banner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="robots" content="noindex, nofollow" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      var t=0;function showCookieBanner(){var e=document.getElementById("cookiebanner"),o=parseInt(e.offsetHeight);e.style.bottom=t-o+"px",(t+=4)<o?setTimeout(function(){n()},1):(t=0,e.style.bottom="0px")}function hideCookieBanner(){document.getElementById("cookiebanner").style.display="none"}function showSettings(){var e=document.getElementById("cb-pop-up-1"),o=document.getElementById("cb-pop-up-2");e.classList.add("cb-hidden"),o.classList.remove("cb-hidden")}function hideSettings(){var e=document.getElementById("cb-pop-up-1"),o=document.getElementById("cb-pop-up-2");e.classList.remove("cb-hidden"),o.classList.add("cb-hidden")}
+    </script>
+  </body>
+</html>

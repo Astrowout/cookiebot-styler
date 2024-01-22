@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* This spacing fluidly changes from 16px to 80px */
+    --default-x-spacing: clamp(1rem, calc(-1.64rem + 6.92vw), 5.00rem);
+}
+
+@layer base {
+    [class*="container"] {
+        padding-left: var(--default-x-spacing);
+        padding-right: var(--default-x-spacing);
+    }
+}
