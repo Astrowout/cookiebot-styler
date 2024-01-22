@@ -123,40 +123,10 @@ const oppenheimerTheme: TTheme = {
     "--radius-button": "0",
 };
 
-const henchmanTheme: TTheme = {
-    // General
-    "--color-base": "#0b1218", // Henchman black
-    "--color-contrast": "#ffffff",
-    "--color-shade": "#eeeeee",
-    "--color-interactive": "#00b0f0",
-    "--color-banner-border": "#2b2b2b",
-
-    // Toggle
-    "--color-toggle-off": "#ffffff",
-    "--color-toggle-on": "#00b0f0",
-
-    // Links
-    "--color-link": "#ffffff",
-    "--color-link-hover": "#00b0f0",
-
-    // Buttons
-    "--color-button-primary-text": "#0b1218",
-    "--color-button-primary": "#ffffff",
-    "--color-button-primary-hover": "#00b0f0",
-    "--color-button-secondary-text": "#ffffff",
-    "--color-button-secondary-border": "#ffffff",
-    "--color-button-secondary-hover": "#00b0f0",
-
-    // Corners
-    "--radius-banner": "16",
-    "--radius-button": "9999",
-};
-
 const themes = {
     default: defaultTheme,
     barbie: barbieTheme,
     oppenheimer: oppenheimerTheme,
-    henchman: henchmanTheme,
 };
 
 export const ThemeStore = create<TThemeStore>((set) => ({

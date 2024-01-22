@@ -37,13 +37,6 @@ export default function Presets ({
             >
                 Oppenheimer
             </button>
-
-            <button
-                className={clsx("bg-[#00b0f0] text-white", buttonClassNames)}
-                onClick={() => setPreset("henchman")}
-            >
-                Henchman
-            </button>
         </div>
     );
 }

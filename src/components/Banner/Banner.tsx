@@ -10,10 +10,10 @@ type TBannerProps = TComponent & {
 
 export default function Banner ({
     className,
-    text = "You can find the docs about how to implement Cookiebot in Notion.",
+    text = "You can implement a custom banner using the Cookiebot platform.",
     cta = {
-        label: "Check it out",
-        url: "https://www.notion.so/leap-forward/CookieBot-e992957788b847419efd64ee05a19928?pvs=4",
+        label: "Check out the docs",
+        url: "https://support.cookiebot.com/hc/en-us/articles/360003921454-Can-I-build-my-own-fully-customized-cookie-consent-banner",
     },
 }: TBannerProps) {
     return (
